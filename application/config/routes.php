@@ -51,7 +51,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 $route['default_controller'] = 'url_shortner';
 $route['(:any)'] = 'url_shortner/$1';
-$route['redirect/:num'] = 'url_shortner/redirect';
+$route['redirect/:any'] = 'url_shortner/redirect';
 $route['404_override'] = '';
 
 

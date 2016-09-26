@@ -38,8 +38,8 @@
 		
 		public function redirect()
 		{
-			$id = $this->uri->segment(2);
-			$this->urlshortner_model->redirect_url($id);
+			$url_short = $this->uri->segment(2);
+			$this->urlshortner_model->redirect_url($url_short);
 
 		}
 
